@@ -2,7 +2,12 @@
 	"name": "cr",
 	"displayName": "Conditional Replace",
 	"description": "Performing a Search&Replace Operation only if a passed condition is met",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"publisher": "StarsKy1990",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/StarsKy1990/ConditionalReplace.git"
+	  },
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -10,14 +15,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
-	],
+	 	"onCommand:extension.ConditionalSearchReplace"
+	 ],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.ConditionalSearchReplace",
+				"title": "Conditional Search&Replace"
 			}
 		]
 	},
